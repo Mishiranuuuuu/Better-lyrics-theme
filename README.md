@@ -6,7 +6,7 @@ A **glassmorphism** custom CSS theme for [YouTube Music](https://music.youtube.c
 
 ## Screenshots
 
-> These screenshot taken with Better Lyrics shader extension installed.
+> These screenshots taken with Better Lyrics shader extension installed.
 
 ### Home Page
 ![Home page with themed cards and transparent player bar](img/front-page.png)

@@ -47,8 +47,8 @@ ytmusic-player:not([video-mode]):active {
   border-radius: var(--blyrics-border-radius) !important;
   box-shadow: var(--blyrics-box-shadow) !important;
   overflow: hidden !important;
-  max-height: 640px !important;
-  height: 640px !important;
+  max-height: calc(100vh - 220px) !important;
+  height: auto !important;
 }
 
 /* Make inner panels/tabs transparent so glass shows through (exclude buttons) */
@@ -264,8 +264,8 @@ ytmusic-chip-cloud-renderer {
   #side-panel,
   .side-panel.ytmusic-player-page {
     padding: 12px !important;
-    max-height: 520px !important;
-    height: 520px !important;
+    max-height: calc(100vh - 250px) !important;
+    height: auto !important;
   }
 
   ytmusic-player:not([video-mode]) {
@@ -289,8 +289,8 @@ ytmusic-chip-cloud-renderer {
   #side-panel,
   .side-panel.ytmusic-player-page {
     padding: 10px !important;
-    max-height: 400px !important;
-    height: 400px !important;
+    max-height: calc(100vh - 200px) !important;
+    height: auto !important;
   }
 
   ytmusic-player:not([video-mode]) {
@@ -324,7 +324,7 @@ ytmusic-chip-cloud-renderer {
   #side-panel,
   .side-panel.ytmusic-player-page {
     padding: 8px !important;
-    max-height: 320px !important;
+    max-height: calc(100vh - 180px) !important;
     height: auto !important;
     border-radius: 10px !important;
   }
