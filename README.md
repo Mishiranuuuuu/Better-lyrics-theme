@@ -12,14 +12,17 @@ A **glassmorphism** custom CSS theme for [YouTube Music](https://music.youtube.c
 ### Hover Effects
 ![Card lift animation and play button reveal on hover](img/front-page-hover-effect.png)
 
-### Player — Lyrics
-![Player view showing lyrics panel with glassmorphism side panel](img/player-lyrics.png)
-
-### Player — Up Next
+### Player - Up Next
 ![Player view showing the up-next queue](img/player-next.png)
 
-### Player — Related
+### Player - Lyrics
+![Player view showing lyrics panel with glassmorphism side panel](img/player-lyrics.png)
+
+### Player - Related
 ![Player view showing related songs and artists](img/player-more.png)
+
+### Player - Fullscreen
+![Player view showing related songs and artists](img/player-fullscreen.png)
 
 ---
 
