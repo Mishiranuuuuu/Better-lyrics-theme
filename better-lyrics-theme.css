@@ -101,6 +101,25 @@ ytmusic-player-page[player-fullscreened] .side-panel .blyrics-container {
   background: transparent !important;
 }
 
+/* Hide glass panel when no lyrics / empty side panel in fullscreen */
+ytmusic-player-page[player-fullscreened] .side-panel:empty,
+ytmusic-player-page[player-fullscreened] #side-panel:empty,
+ytmusic-player-page[player-fullscreened] .side-panel[hidden],
+ytmusic-player-page[player-fullscreened] #side-panel[hidden] {
+  display: none !important;
+}
+
+/* Hide glass when Better Lyrics has no lyrics */
+ytmusic-player-page[player-fullscreened] .side-panel:has(.blyrics-container[data-no-lyrics="true"]) {
+  display: none;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
 /* Tab header bar - transparent with subtle separator */
 .tab-header.ytmusic-player-page,
 #tabsContent,
