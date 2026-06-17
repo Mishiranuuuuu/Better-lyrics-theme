@@ -123,8 +123,8 @@ ytmusic-player-page[player-fullscreened]:not([blyrics-dfs]) #side-panel:has(.bly
     background-color 0.3s ease,
     box-shadow 0.3s ease,
     border-color 0.3s ease;
-  transition-delay: calc(var(--blyrics-no-lyrics-slide-delay, 1.8s) + 0.3s);
-  animation: blyrics-theme-no-lyrics-panel-hide calc(var(--blyrics-no-lyrics-slide-delay, 1.8s) + 0.6s) forwards;
+  transition-delay: calc(var(--blyrics-no-lyrics-slide-delay, 1.8s) + 0.2s);
+  animation: blyrics-theme-no-lyrics-panel-hide calc(var(--blyrics-no-lyrics-slide-delay, 1.8s) + 0.4s) forwards;
 }
 
 @keyframes blyrics-theme-no-lyrics-panel-hide {
@@ -291,7 +291,7 @@ ytmusic-chip-cloud-renderer {
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent !important;
+  background: none !important;
 }
 
 ::-webkit-scrollbar-thumb {
